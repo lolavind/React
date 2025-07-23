@@ -14,7 +14,7 @@ function LikeButton() {
 	};
 
 	return (
-		<button onClick={toggleLike}>
+		<button onClick={toggleLike} className='like'>
 			{liked ? '❤️ Gillad' : '🤍 Gilla'} ({likes})
 		</button>
 	);

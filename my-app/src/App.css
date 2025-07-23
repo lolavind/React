@@ -43,7 +43,8 @@ a {
 
 
 *:focus {
-	outline: 2px solid black; /* Markerar elementet tydligt */
+	outline: 2px solid black;
+	/* Markerar elementet tydligt */
 }
 
 /*Positioner för gemensamma element*/
@@ -80,10 +81,13 @@ a {
 
 .meny a {
 	color: black;
-	text-decoration: none; /* Tar bort understrykning */
+	text-decoration: none;
+	/* Tar bort understrykning */
 	padding-bottom: 2px;
-	border-bottom: 2px solid transparent; /* Gör så att linjen inte syns från början */
-	transition: border-bottom 0.3s ease-in-out; /* Gör effekten mjuk */
+	border-bottom: 2px solid transparent;
+	/* Gör så att linjen inte syns från början */
+	transition: border-bottom 0.3s ease-in-out;
+	/* Gör effekten mjuk */
 }
 
 .meny a:visited {
@@ -93,11 +97,13 @@ a {
 .meny a:hover {
 	color: black;
 	text-decoration: solid;
-	border-bottom: 2px solid black; /* Visar en svart linje vid hover */
+	border-bottom: 2px solid black;
+	/* Visar en svart linje vid hover */
 }
 
 .meny a:active {
-	color: black; /* Svart när länken klickas */
+	color: black;
+	/* Svart när länken klickas */
 }
 
 footer {
@@ -151,9 +157,12 @@ footer {
 .centered a {
 	color: white;
 	text-decoration: none;
-	padding-bottom: 2px; /* Lägger till lite mellanrum*/
-	border-bottom: 2px solid transparent; /* Gör så att linjen inte syns från början */
-	transition: border-bottom 0.3s ease-in-out; /* Gör effekten mjuk */
+	padding-bottom: 2px;
+	/* Lägger till lite mellanrum*/
+	border-bottom: 2px solid transparent;
+	/* Gör så att linjen inte syns från början */
+	transition: border-bottom 0.3s ease-in-out;
+	/* Gör effekten mjuk */
 }
 
 .centered a:visited {
@@ -163,7 +172,8 @@ footer {
 .centered a:hover {
 	color: white;
 	text-decoration: solid;
-	border-bottom: 2px solid white; /* Visar en vit linje vid hover */
+	border-bottom: 2px solid white;
+	/* Visar en vit linje vid hover */
 }
 
 .centered a:active {
@@ -173,6 +183,19 @@ footer {
 .karta {
 	width: 100vw;
 }
+
+.like {
+	margin-left: 5vw;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 10px;
+	background-color: white;
+	border: 0px;
+}
+
+
+
+
 
 /*Meny*/
 .meny_h1 {
@@ -189,9 +212,12 @@ ul {
 }
 
 ul li {
-	line-height: 1; /* Justera avståndet mellan raderna */
-	margin: 2px 0; /* Minskar avståndet mellan list-elementen */
-	padding: 5px 0; /* Minskar utrymmet inuti varje list-item */
+	line-height: 1;
+	/* Justera avståndet mellan raderna */
+	margin: 2px 0;
+	/* Minskar avståndet mellan list-elementen */
+	padding: 5px 0;
+	/* Minskar utrymmet inuti varje list-item */
 	text-align: center;
 }
 
@@ -204,12 +230,15 @@ ul li {
 	width: 15vw;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom: 2px solid transparent; /* Gör så att linjen inte syns från början */
-	transition: border-bottom 0.3s ease-in-out; /* Gör effekten mjuk */
+	border-bottom: 2px solid transparent;
+	/* Gör så att linjen inte syns från början */
+	transition: border-bottom 0.3s ease-in-out;
+	/* Gör effekten mjuk */
 }
 
 .se_mer:hover {
-	border-bottom: 2px solid black; /* Visar en svart linje vid hover */
+	border-bottom: 2px solid black;
+	/* Visar en svart linje vid hover */
 }
 
 .toggle-button {
@@ -279,8 +308,9 @@ label {
 }
 
 .boka_bord_bakgrund {
-/* 	background-image: url(".img/bakgrund_boka.png");
- */	background-size: cover;
+	/* 	background-image: url(".img/bakgrund_boka.png");
+ */
+	background-size: cover;
 }
 
 /* input.invalid {
@@ -288,8 +318,8 @@ label {
 } */
 
 input.invalid {
-  border: 2px solid red;
-  background-color: #ffe6e6;
+	border: 2px solid red;
+	background-color: #ffe6e6;
 }
 
 /* input:valid {
@@ -304,7 +334,8 @@ input.invalid {
 
 .rad_1_om {
 	display: flex;
-	justify-content: space-between; /* Sprider ut elementen jämnt */
+	justify-content: space-between;
+	/* Sprider ut elementen jämnt */
 	align-items: center;
 	width: 80vw;
 	margin: auto;
@@ -312,13 +343,15 @@ input.invalid {
 
 .rad_1_text,
 .rad_1_video {
-	flex: 1; /* Gör att båda tar upp lika mycket utrymme */
+	flex: 1;
+	/* Gör att båda tar upp lika mycket utrymme */
 	text-align: center;
 }
 
 .rad_2_om {
 	display: flex;
-	justify-content: space-between; /* Sprider ut elementen jämnt */
+	justify-content: space-between;
+	/* Sprider ut elementen jämnt */
 	align-items: center;
 	width: 80vw;
 	margin: auto;
@@ -326,38 +359,40 @@ input.invalid {
 
 .rad_2_bild,
 .rad_2_text {
-	flex: 1; /* Gör att båda tar upp lika mycket utrymme */
+	flex: 1;
+	/* Gör att båda tar upp lika mycket utrymme */
 	text-align: center;
 
-/*   width: 100%;
+	/*   width: 100%;
   height: auto; */
-  
+
 }
-.rad_2_bild{
+
+.rad_2_bild {
 	cursor: pointer;
-  transition: transform 0.3s ease;
+	transition: transform 0.3s ease;
 }
 
 .popup-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(6px);
-  background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(6px);
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
 }
 
 .popup-image {
-  max-width: 80vw;
-  max-height: 80vh;
-  border-radius: 10px;
- /*  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); */
-  transition: transform 0.3s ease;
+	max-width: 80vw;
+	max-height: 80vh;
+	border-radius: 10px;
+	/*  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6); */
+	transition: transform 0.3s ease;
 }
 
 /*Öppettider*/
