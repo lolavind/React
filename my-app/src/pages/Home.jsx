@@ -1,6 +1,7 @@
 import React from "react";
 import HoverZoomText from "../HoverZoomText";
 import { klick } from "../button";
+import LikeButton from "../Like";
 
 class Home extends React.Component {
 	render(){
@@ -9,6 +10,7 @@ class Home extends React.Component {
 				<img src={"./img/banner2.png"} className="banner" alt="Eurasia" />
 			</div><section>
 					{/* <button onClick={klick}>Show Message</button> */}
+					<LikeButton/>
 
 					<h2>Vi serverar Umeås bästa kinesiska mat!</h2>
 					<div className="start_bilder">
